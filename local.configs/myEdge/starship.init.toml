@@ -1,0 +1,34 @@
+format = '''
+$username on $hostname at $directory
+$character
+'''
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+[username]
+style_root = 'bold red'
+style_user = 'bold yellow'
+show_always = true
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+trim_at = ''
+style = 'bold green'
+disabled = false
+format = '[$hostname]($style)'
+
+[directory]
+truncation_length = 5   # 设置路径显示层级, 默认 3, 显示最后 3 层. 改成 0 显示全路径, 
+truncation_symbol = '...'
+truncate_to_repo = false    # git 仓库是否显示截断, false 显示全路径
+style = 'bold cyan'
+format = '[$path]($style)'
+
+[cmd_duration]
+min_time = 1000 # 最小显示时间(ms), 低于该时间不显示
+
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
