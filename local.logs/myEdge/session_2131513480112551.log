@@ -1,0 +1,127 @@
+[ERROR] - (starship::print): Error parsing "format":  --> 1:11
+  |
+1 | [$username] on $hostname at $directory $fill 
+  |           ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[ERROR] - (starship::print): Error parsing "format":  --> 1:11
+  |
+1 | [$username] on $hostname at $directory $fill 
+  |           ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[WARN] - (starship::config): Error in 'GitBranch' at 'always_show_remot': Unknown key (Did you mean 'always_show_remote'?)
+[ERROR] - (starship::print): Error parsing "format":  --> 1:64
+  |
+1 | \[$username\] on \[$hostname\] at \[$directory\] \[$git_branch\ $git_status]$fill 
+  |                                                                ^---
+  |
+  = expected escaped_char
+[ERROR] - (starship::print): Error parsing "format":  --> 1:64
+  |
+1 | \[$username\] on \[$hostname\] at \[$directory\] \[$git_branch\ $git_status]$fill 
+  |                                                                ^---
+  |
+  = expected escaped_char
+[WARN] - (starship::modules::git_branch): Error in module `git_branch`: 
+ --> 1:19
+  |
+1 | on [$symbol$branch] remote:\([$remote_branch]\)($style)
+  |                   ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[WARN] - (starship::modules::git_branch): Error in module `git_branch`: 
+ --> 1:19
+  |
+1 | on [$symbol$branch] remote:\($remote_branch\)($style)
+  |                   ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[WARN] - (starship::modules::git_branch): Error in module `git_branch`: 
+ --> 1:19
+  |
+1 | on [$symbol$branch] remote:\($remote_branch\)($style)
+  |                   ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[ERROR] - (starship::print): Error parsing "format":  --> 1:87
+  |
+1 | \[$username\]\[$hostname\]\[$directory\]\[$git_branch $git_status\]$fill[$memory_usage]
+  |                                                                                       ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[ERROR] - (starship::print): Error parsing "format":  --> 1:87
+  |
+1 | \[$username\]\[$hostname\]\[$directory\]\[$git_branch $git_status\]$fill[$memory_usage]
+  |                                                                                       ^---
+  |
+  = expected variable, string, textgroup, or conditional
+[WARN] - (starship::config): Error in 'Memory' at 'threhold': Unknown key (Did you mean 'threshold'?)
+[WARN] - (starship::modules::memory_usage): Error in module `memory_usage`:
+ --> 1:25
+  |
+1 | \[Memory: [$ram]($style)]
+  |                         ^---
+  |
+  = expected EOI, variable, string, textgroup, or conditional
+[WARN] - (starship::config): Error in 'Time' at 'disable': Unknown key (Did you mean 'disabled'?)
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 16
+   |
+44 | symbol = '(●'◡'●)'
+   |                ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 16
+   |
+44 | symbol = '(●'◡'●)'
+   |                ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 17
+   |
+44 | symbol = '(\●'◡'\●)'
+   |                 ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 17
+   |
+44 | symbol = '(\●'◡'\●)'
+   |                 ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 17
+   |
+44 | symbol = '\(●'◡'●\)'
+   |                 ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 17
+   |
+44 | symbol = '\(●'◡'●\)'
+   |                 ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 18
+   |
+44 | symbol = '\(\●'◡'\●\)'
+   |                  ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 44, column 18
+   |
+44 | symbol = '\(\●'◡'\●\)'
+   |                  ^
+unexpected key or value, expected newline, `#`
+
+[ERROR] - (starship::print): Error parsing "format":  --> 1:33
+  |
+1 | $username $hostname $directory \<$git_branch$git_status\> $fill$memory_usage $time
+  |                                 ^---
+  |
+  = expected escaped_char
+[ERROR] - (starship::print): Error parsing "format":  --> 1:33
+  |
+1 | $username $hostname $directory \<$git_branch$git_status\> $fill$memory_usage $time
+  |                                 ^---
+  |
+  = expected escaped_char
