@@ -1,5 +1,5 @@
 format = '''
-$username $hostname $directory << $git_branch$git_status >> $fill$memory_usage $time
+$username $hostname $directory $git_branch$git_status $fill$memory_usage $time
 $character
 '''
 
@@ -46,10 +46,10 @@ style = 'grey'
 
 [git_branch]
 always_show_remote = true
-format = 'on [$symbol$branch \(remote:$remote_branch\)]($style)'
+format = '<< on [$symbol$branch \(remote:$remote_branch\)]($style)'
 
 [git_status]
-format = '([\[$all_status$ahead_behind\]]($style))'
+format = '([\[$all_status$ahead_behind\]]($style)) >>'
 
 [memory_usage]
 threshold = 50
