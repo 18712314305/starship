@@ -14,7 +14,7 @@ format = '[$user]($style)'
 
 [hostname]
 ssh_only = false
-trim_at = ''
+trim_at = '.'
 style = 'bold green'
 disabled = false
 format = 'in [$hostname]($style)'
